@@ -1,12 +1,11 @@
 #include <iostream>
-#include <string>
 #include <list>
 
 using namespace std;
 
 int main() {
 
-	list<string> yamanoteLine{
+	list<const char*> yamanoteLine{
 	"Tokyo",
 	"Yurakucho",
 	"Shimbashi",
